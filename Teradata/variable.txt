@@ -1,5 +1,4 @@
 table_nm = 'SDB_COUNTRIES_TPT'
-table_nm2 = 'dwq_qwstage_t.SDB_COUNTRIES',
 file_nm = 'test.csv',
 T_SYSTEM = 'teradatadev',
 USER = 'user1',
