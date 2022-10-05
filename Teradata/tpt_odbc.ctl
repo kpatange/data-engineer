@@ -9,7 +9,7 @@ DEFINE JOB Load_data
 		ATTRIBUTES
 		(
 		VARCHAR PrivateLogName = 'odbc_log',
-		VARCHAR DSNName = 'XDMPROD',
+		VARCHAR DSNName = 'SrcODBCName',
 		VARCHAR SelectStmt = 'SELECT country_id, b_classname, b_batchid, b_credate, b_upddate, b_creator,b_updator, country_name, sort_order, f_country_cluster FROM outbound.sdb_organizationstructure_countries'
 		);
 	  
